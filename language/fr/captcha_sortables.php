@@ -40,9 +40,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_SORTABLES'				=> 'CAPTCHA à trier',
-	'CONFIRM_QUESTION_EXPLAIN'		=> 'Veuillez glisser les différentes réponses possibles dans la liste appropriée. Ceci est une mesure permettant de lutter contre les inscriptions automatisées.',
-	'CONFIRM_QUESTION_EXPLAIN_NOJS'	=> 'Veuillez sélectionner ci-dessous les différentes réponses qui correspondent à la liste appropriée. Ceci est une mesure permettant de lutter contre les inscriptions automatisées.', // With JavaScript disabled
-	'CONFIRM_QUESTION_WRONG'		=> 'Vous avez trié de manière incorrecte les réponses lors de la question de confirmation.',
+	'CONFIRM_QUESTION_EXPLAIN'		=> 'Veuillez glisser les différentes propositions dans la liste appropriée. Ceci est une mesure permettant de lutter contre les inscriptions automatisées.',
+	'CONFIRM_QUESTION_EXPLAIN_NOJS'	=> 'Veuillez sélectionner ci-dessous les différentes propositions qui correspondent à la liste appropriée. Ceci est une mesure permettant de lutter contre les inscriptions automatisées.', // With JavaScript disabled
+	'CONFIRM_QUESTION_WRONG'		=> 'Vous avez trié de manière incorrecte les éléments dans la liste associée à la question de confirmation.',
 
 	'QUESTION_ANSWERS'			=> 'Réponses',
 	'ANSWERS_EXPLAIN'			=> 'Correspond aux réponses pour cette colonne. Veuillez saisir une réponse par ligne.',
@@ -50,8 +50,8 @@ $lang = array_merge($lang, array(
 	'CHANGES_SUBMIT'			=> 'Envoyer les modifications',
 
 	'EDIT_QUESTION'				=> 'Modifier la question',
-	'QUESTIONS'					=> 'Questions des listes à trier',
-	'QUESTIONS_EXPLAIN'			=> 'Vous pouvez ajouter et modifier ici les questions qui seront posées lors de l’inscription. Vous devez rédiger au moins une question dans la langue par défaut du forum afin d’utiliser cette extension. Les questions devraient, pour plus de facilité, être en rapport avec votre public. Les utilisateurs verront tous les choix dans une colonne et devront les trier dans la colonne correspondante. N’oubliez pas de modifier régulièrement les questions.',
+	'QUESTIONS'					=> 'Liste des questions à trier',
+	'QUESTIONS_EXPLAIN'			=> 'Depuis cette page, vous pouvez ajouter et modifier des questions qui seront posées lors de la création d’un compte. Vous devez définir au moins une question dans la langue par défaut du forum afin d’utiliser cette extension. Essayez de définir des questions faciliment compréhensible par votre public. Les utilisateurs verront tous les choix dans une colonne et devront les trier dans la bonne colonne. N’oubliez pas de modifier régulièrement les questions.',
 	'QUESTION_DELETED'			=> 'Question supprimée',
 	'QUESTION_LANG'				=> 'Langue',
 	'QUESTION_LANG_EXPLAIN'		=> 'La langue dans laquelle cette question et ses réponses sont rédigées.',
@@ -75,5 +75,5 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT'				=> 'Question',
 	'QUESTION_TEXT_EXPLAIN'		=> 'Explique comment trier les différentes réponses dans les colonnes.',
 
-	'SORTABLES_ERROR_MSG'		=> 'Veuillez remplir tous les champs et saisir au moins une réponse pour les deux colonnes.',
+	'SORTABLES_ERROR_MSG'		=> 'Veuillez remplir tous les champs et saisir au moins une réponse pour chaque colonne.',
 ));
