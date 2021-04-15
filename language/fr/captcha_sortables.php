@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_QUESTION'				=> 'Modifier la question',
 	'QUESTIONS'					=> 'Liste des questions à trier',
-	'QUESTIONS_EXPLAIN'			=> 'Depuis cette page, vous pouvez ajouter et modifier des questions qui seront posées lors de la création d’un compte. Vous devez définir au moins une question dans la langue par défaut du forum afin d’utiliser cette extension. Essayez de définir des questions faciliment compréhensible par votre public. Les utilisateurs verront tous les choix dans une colonne et devront les trier dans la bonne colonne. N’oubliez pas de modifier régulièrement les questions.',
+	'QUESTIONS_EXPLAIN'			=> 'Depuis cette page, vous pouvez ajouter et modifier des questions qui seront posées lors de la création d’un compte. Vous devez définir au moins une question dans la langue par défaut du forum afin d’utiliser cette extension. Essayez de définir des questions facilement compréhensible par votre public. Les utilisateurs verront tous les choix dans une colonne et devront les trier dans la bonne colonne. N’oubliez pas de modifier régulièrement les questions.',
 	'QUESTION_DELETED'			=> 'Question supprimée',
 	'QUESTION_LANG'				=> 'Langue',
 	'QUESTION_LANG_EXPLAIN'		=> 'La langue dans laquelle cette question et ses réponses sont rédigées.',
